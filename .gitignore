@@ -1,0 +1,10 @@
+.DS_Store
+.vscode
+__pycache__
+
+/buildings
+/roofs
+/roofs_poly
+/surroundings3D
+/surroundings2D
+/tiles
