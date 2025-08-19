@@ -73,6 +73,7 @@ def get_gml_files():
 if __name__ == '__main__':
     tiles = get_gml_files()
     out_path = './out'
+    os.makedirs(out_path, exist_ok=True)
 
     for tile in tiles:
         process_tile(tile, out_path)
